@@ -1,4 +1,5 @@
 # homebrew-tools
+
 Personal Homebrew tap
 
 ## 安装 luckypg
@@ -13,5 +14,10 @@ brew install luckypg
 执行以下命令测试 `luckypg.rb` 安装脚本：
 
 ```bash
-brew install --build-from-source luckypg.rb
+brew install --verbose --debug --build-from-source luckypg.rb
 ```
+
+Documentation:
+
+- https://docs.brew.sh/Formula-Cookbook
+- https://rubydoc.brew.sh/Formula

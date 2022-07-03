@@ -13,10 +13,12 @@ class Luckypg < Formula
   end
 
   def install
+    # system "pwd"
+    # system "ls -ahlR"
     if OS.mac?
-      system "mv" "luckypg-macos" "luckypg"
+      system "mv", "luckypg-macos", "luckypg"
     elsif OS.linux?
-      system "mv" "luckypg-linux" "luckypg"
+      system "mv", "luckypg-linux", "luckypg"
     end
     bin.install "luckypg"
   end
