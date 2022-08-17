@@ -1,15 +1,15 @@
 class Luckypg < Formula
   desc "Lucky Programmer 给程序员带来好运的小工具"
   homepage "https://github.com/leizongmin/luckypg"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   if OS.mac?
     url "https://github.com/leizongmin/luckypg/releases/download/v#{version}/luckypg-macos"
-    sha256 "cb5f7815b562285d9e741a7e69df90f8a723ce1147b9f203a813d8473323da29"
+    sha256 "50ab795bd721c1bf2912d19fc2a1407a61ba90268bd7d1b6cf8c1276a41d05fb"
   elsif OS.linux?
     url "https://github.com/leizongmin/luckypg/releases/download/v#{version}/luckypg-linux"
-    sha256 "a195ff76a927c0cf391d36677ef1dbb648404c9d8bac8ff9e2579ec73ee185c8"
+    sha256 "e3d70dbe782d2d39b986c3b7c9a8aadcaa3b139d20911716ccc1d2f58afde4ab"
   end
 
   def install
